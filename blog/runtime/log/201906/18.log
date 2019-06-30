@@ -1,0 +1,274 @@
+---------------------------------------------------------------
+[ 2019-06-18T23:28:23+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.gohosts.com/ [运行时间：1.211133s][吞吐率：0.83req/s] [内存消耗：2,509.64kb] [文件加载：56]
+[ info ] [ LANG ] E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gohosts.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2019-06-18T23:31:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.gohosts.com/ [运行时间：0.233640s][吞吐率：4.28req/s] [内存消耗：2,903.61kb] [文件加载：60]
+[ info ] [ LANG ] E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gohosts.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-18T23:31:42+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.gohosts.com/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.074758s][吞吐率：13.38req/s] [内存消耗：1,499.97kb] [文件加载：44]
+[ info ] [ LANG ] E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gohosts.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.gohosts.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=er2mfeum89ip45suo8p4r21vn4',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-18T23:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /thread/27.html
+[ info ] www.gohosts.com/thread/27.html [运行时间：0.237974s][吞吐率：4.20req/s] [内存消耗：2,859.60kb] [文件加载：60]
+[ info ] [ LANG ] E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'thread',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gohosts.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.gohosts.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=er2mfeum89ip45suo8p4r21vn4',
+)
+[ info ] [ PARAM ] array (
+  '/thread/27_html' => '',
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->thread[ E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_thread.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptt',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-18T23:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.gohosts.com/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.077390s][吞吐率：12.92req/s] [内存消耗：1,500.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gohosts.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.gohosts.com/thread/27.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=er2mfeum89ip45suo8p4r21vn4',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-18T23:31:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.gohosts.com/ [运行时间：0.151142s][吞吐率：6.62req/s] [内存消耗：2,903.55kb] [文件加载：60]
+[ info ] [ LANG ] E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gohosts.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=er2mfeum89ip45suo8p4r21vn4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-18T23:31:54+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.gohosts.com/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.064479s][吞吐率：15.51req/s] [内存消耗：1,499.97kb] [文件加载：44]
+[ info ] [ LANG ] E:\studysoft\phpstudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gohosts.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.gohosts.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=er2mfeum89ip45suo8p4r21vn4',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
